@@ -22,6 +22,13 @@
   margin: 0;
 }
 
+#button p:active,
+#button p:focus {
+  background-color: #ddd;
+  border-color: #888;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
